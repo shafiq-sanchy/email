@@ -1,0 +1,16 @@
+[
+  {
+    "provider": "Brevo",
+    "server": "smtp-relay.brevo.com",
+    "port": 587,
+    "email": "your_brevo_email@example.com",
+    "password": "YOUR_BREVO_SMTP_KEY"
+  },
+  {
+    "provider": "Mailjet",
+    "server": "in-v3.mailjet.com",
+    "port": 587,
+    "email": "apikey",
+    "password": "YOUR_MAILJET_SECRET_KEY"
+  }
+]
