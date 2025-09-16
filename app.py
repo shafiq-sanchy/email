@@ -21,7 +21,7 @@ smtp_cycle = cycle(smtp_accounts) if smtp_accounts else None
 # Streamlit UI
 # ==========================
 st.set_page_config(page_title="Bulk Email Sender", layout="centered")
-st.title("Sender (Mailjet + Brevo)")
+st.title("")
 
 # Upload or paste recipients
 option = st.radio("📋 Add Recipients", ["Paste Emails", "Upload CSV/Excel"])
